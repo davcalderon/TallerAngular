@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead>
+        <tr *ngFor="let c of conferencias">
+          <td>
+            <dd>{{c.name}}</dd>
+          </td>
+          <td>
+            <dd>{{c.starts}}</dd>
+          </td>
+          <td>
+            <dd>{{c.ends}}</dd>
+          </td>
+        </tr>
+        <p>upcoming conferencies: {{fechaActual}}</p>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+</div>
